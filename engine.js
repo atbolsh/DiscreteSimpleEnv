@@ -1,3 +1,21 @@
+/* DEFAULTS */
+
+/* This makes it so levels don't need to declare empty vars for features they don't need (eg "wall" or "gold").
+Also makes backwards compatibility smoother if new features are added. */
+
+let reward = 0;
+
+let x = 400;
+let y = 400;
+let r = 40;
+
+let gold_r = 10;
+
+let gold = [];
+
+let wall = [];
+
+
 function setup() {
   createCanvas(800, 800);
   noLoop();
@@ -122,4 +140,6 @@ function mousePressed(){
   console.log([mouseX, mouseY]);
   return false;
 }
+
+
 

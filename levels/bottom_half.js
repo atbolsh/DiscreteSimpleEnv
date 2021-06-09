@@ -1,14 +1,12 @@
-let reward = 0;
+reward = 0;
 
-let x = 200;
-let y = 600;
-let r = 40;
+x = 200;
+y = 600;
+r = 40;
 
-let gold_r = 10;
+gold_r = 10;
 
-let gold = [];
-
-let wall = [
+wall = [
 [0, 0, 50, 800, 0], 
 [0, 0, 350, 50, 0],
 [450, 0, 350, 50, 0],
